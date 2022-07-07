@@ -1,0 +1,18 @@
+[package]
+name = "static-map-macro"
+description = "Macro to create a stack-alocated map"
+version = "0.2.3"
+authors = ["강동윤 <kdy1997.dev@gmail.com>"]
+edition = "2018"
+license = "MIT"
+homepage = "https://github.com/kdy1/rust-static-map"
+repository = "https://github.com/kdy1/rust-static-map"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "1", features = ["full"] }
+proc-macro2 = "1"
+pmutil = "0.5.3"
+quote = "1"
