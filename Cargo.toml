@@ -1,0 +1,17 @@
+[workspace]
+
+[package]
+name = "st-map"
+description = "Runtime for a stack-alocated map"
+version = "0.1.6"
+authors = ["강동윤 <kdy1997.dev@gmail.com>"]
+edition = "2018"
+license = "MIT"
+homepage = "https://github.com/kdy1/rust-static-map"
+repository = "https://github.com/kdy1/rust-static-map"
+
+[lib]
+
+[dependencies]
+arrayvec = "0.7.2"
+static-map-macro = { path = "./macro", version = "0.2.3"}
